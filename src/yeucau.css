@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    font-family: 'roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+
+/* nav-bar */
+
+.nav-bar {
+    background-image: url(../src/Untitled-1.png);
+    height: 7.5em;
+}
+
+#nav-bar__logo-brand {
+    background-image: url(../src/logo_Fly_Safe.png);
+    width: 240px;
+    height: 210px;
+    margin-top: -75px;
+    margin-left: 1em;
+}
+
+.nav-bar__menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.nav-bar__menu ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.nav-bar__menu li {
+    display: inline-block;
+}
+
+.nav-bar__menu li a {
+    text-decoration: none;
+}
+
+.nav-bar__menu .nav-bar__center li {
+    margin-top: 2em;
+    margin-left: 6.5em;
+    line-height: 2.7em;
+    width: 12em;
+    border: 1px solid #A1A5A6;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.nav-bar__menu .nav-bar__center li a {
+    font: 1.9em "roboto", sans-serif;
+    font-weight: bold;
+    color: #A1A5A6;
+}
+
+.nav-bar__menu .nav-bar__center li:hover {
+    background-color: #0A4B70;
+}
+
+.nav-bar__menu .nav-bar__center li:hover a {
+    color: #03DAFC;
+}
+
+.nav-bar__menu .nav-bar__login {
+    margin-left: 10.5em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.nav-bar__menu .nav-bar__login .login__icon-avatar img {
+    margin-top: 2.5em;
+    height: 2em;
+    width: 2em;
+}
+
+.nav-bar__menu .nav-bar__login li {
+    margin-top: 2.5em;
+    margin-left: 2.5em;
+}
+
+.nav-bar__menu .nav-bar__login li a {
+    color: black;
+    font: 1.5em "roboto", sans-serif;
+    font-weight: bold;
+}
+
+.nav-bar__menu .nav-bar__login li:last-child {
+    margin-top: 2.5em;
+    margin-left: 2.5em;
+}
+
+.nav-bar__menu .nav-bar__login li:last-child a::before {
+    margin-right: 35px;
+    content: "|";
+}
+
+.nav-bar__menu .nav-bar__login a:hover {
+    color: #0A4B70;
+}
+
+
+/* main */
+
+.request_form {
+    margin-left: 60rem;
+    height: 30rem;
+}
+
+.request_form h2 {
+    margin-left: 35px;
+}
+
+.title {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.request {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.noi_dung {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.form_btn {
+    margin: 0px 0px 7rem 71.5rem;
+    width: 16rem;
+    height: 70px;
+    border-radius: 26px;
+    color: #fff;
+    background-color: blue;
+    font-size: 30px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.request_form ul {
+    margin-top: 2.5rem;
+}
+
+.request_form h1 {
+    margin-left: 15rem;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+label {
+    font-size: 25px;
+}
+
+input {
+    height: 35px;
+    width: 20rem;
+    margin-left: 42px;
+    margin-bottom: 2rem;
+}
+
+select {
+    height: 35px;
+    width: 15rem;
+    margin-bottom: 2rem;
+    font-size: 20px;
+    margin-left: 37px;
+}
+
+textarea {
+    height: 195px;
+    width: 345px;
+    margin: 0px 0px 0px 10px;
+    border: 1px solid #999;
+    vertical-align: top;
+    margin-left: 36px;
+}
+
+
+/* footer */
+
+.footer-bg {
+    background-image: url(./footer.png);
+    height: 440px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.footer-bg h2 {
+    margin-top: 15px;
+    color: #03DAFC;
+    text-transform: capitalize;
+}
+
+.footer-bg a {
+    color: white;
+}
+
+.footer-bg .footerabout-us {
+    padding: 50px 0 0 150px;
+    width: 25%;
+}
+
+.footer-bg .footerabout-us hr {
+    margin: 20px 0 20px 0;
+    width: 300px;
+    color: #969696;
+}
+
+.footer-bg .footerabout-us .about-uscontact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.footer-bg .footerabout-us .about-uscontact i {
+    margin: -7px 5px;
+    height: 25px;
+    width: 25px;
+}
+
+.footer-bg .footerabout-us .about-ustime {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 18px;
+}
+
+.footer-bg .footerabout-us .about-ustime i {
+    margin: -7px 5px;
+    height: 25px;
+    width: 25px;
+}
+
+.footer-bg .footerabout-us .about-ussuggestions {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.footer-bg .footerabout-us .about-ussuggestions a {
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-left: 15px;
+}
+
+.footer-bg .footerabout-us .about-ussuggestions a:hover {
+    text-decoration: underline;
+    color: #03DAFC;
+}
+
+.footer-bg .footerjuridical {
+    padding: 50px;
+    width: 12%;
+}
+
+.footer-bg .footerjuridical p {
+    margin-top: 5px;
+}
+
+.footer-bg .footerjuridical p a {
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.footer-bg .footerjuridical p a:hover {
+    text-decoration: underline;
+    color: #03DAFC;
+}
+
+.footer-bg .footersupport {
+    padding: 50px;
+    width: 25%;
+}
+
+.footer-bg .footersupport p {
+    margin-top: 5px;
+}
+
+.footer-bg .footersupport p a {
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.footer-bg .footersupport p a:hover {
+    text-decoration: underline;
+    color: #03DAFC;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.8">
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link rel="shortcut icon" href="/assets/favicon.ico">
+    <link rel="stylesheet" href="./src/main.css">
+    <link rel="stylesheet" href="./src/main2.css">
+    <link rel="stylesheet" href="./signUp.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div class="bg__logo">
+            <img src="./src/logo_Fly_Safe.png" alt="logo">
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="form__contain ">
+                <div class="bg__image"><img src="./src/undraw_journey_lwlj.png" alt="bg--img"></div>
+                <div class="form__login form--hidden ">
+                    <form class="form " id="login">
+                        <h1 class="form__title">Đăng Nhập</h1>
+                        <div class="form__message form__message--error"></div>
+                        <div class="form__input-group">
+                            <p style="margin-left:54px;">Tài khoản</p>
+                            <input type="text" class="form__input" autofocus placeholder="Username or Email">
+                            <div class="form__input-error-message"></div>
+                        </div>
+                        <div class="form__input-group">
+                            <p style="margin-left: 55px">Mật khẩu</p>
+                            <input type="password" class="form__input" autofocus placeholder="Password">
+                            <div class="form__input-error-message"></div>
+                        </div>
+                        <div class="login__form--text">
+                            <p class="form__text">
+                                <a href="#" class="form__link">Quên mật khẩu?</a>
+                            </p>
+                            <p class="form__text">
+                                <a class="form__link" href="./" id="linkCreateAccount">Đăng ký tài khoản?</a>
+                            </p>
+                        </div>
+                        <button class="form__button" type="submit">Đăng Nhập</button>
+                    </form>
+                </div>
+                <div class="form__signUp ">
+                    <form class="form " id="createAccount">
+                        <h1 class="form__title">Đăng Ký</h1>
+                        <div class="form__message form__message--error"></div>
+                        <div class="form__input-group">
+                            <input type="text" class="form__input" autofocus placeholder="Họ">
+                            <input type="text" class="form__input" autofocus placeholder="Tên">
+                            <div class="form__input-error-message"></div>
+                        </div>
+                        <div class="form__input-group" id="username">
+                            <input type="text" class="form__input" style="width:80rem" autofocus placeholder="Tên Đăng Nhập">
+                            <div class="form__input-error-message"></div>
+                        </div>
+                        <div class="form__input-group" id="email">
+                            <input type="email" class="form__input" style="width:80rem" autofocus placeholder="Email">
+                            <div class="form__input-error-message"></div>
+                        </div>
+                        <div class="form__input-group" id="userPasswords">
+                            <input type="password" class="form__input" style="width:80rem" autofocus placeholder="Mật Khẩu">
+                            <div class="form__input-error-message"></div>
+                        </div>
+                        <div class="form__input-group" id="retypepassword">
+                            <input type="password" class="form__input" style="width:80rem" autofocus placeholder="Nhập Lại Mật Khẩu">
+                            <div class="form__input-error-message"></div>
+                        </div>
+                        <div class="login__form--text">
+                            <p>
+                                Ngày Sinh
+                            </p>
+
+                            <input type="date" name="date">
+                        </div>
+                        <div class="signUp__form--gender" id="gender">
+                            <label>Giới tính:</label>
+                            <div class="gender--option">
+                                <input type="radio" name="gender" value="" id="male" value="0">
+                                <label for="male" style="margin-right:5rem;">Nam</label>
+                                <br>
+                                <input type="radio" name="gender" id="female" value="1">
+                                <label for="female" style="margin-right:5rem;">Nữ</label>
+                                <br>
+                                <input type="radio" name="gender" id="different" value="2">
+                                <label for="different" style="margin-right:1rem;">Khác</label>
+                            </div>
+
+                        </div>
+                        <button class="form__button" type="submit" id="linkLogin">Đăng Ký</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </main>
+    <script src="./src/main.js"></script>
+</body>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/customer_info.css">
+    <script src="https://kit.fontawesome.com/cf03b6a817.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,w  ght@0,400;0,500;1,700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="nav-bar">
+            <div class="nav-bar__menu">
+                <div id="nav-bar__logo-brand"></div>
+                <ul class="nav-bar__center">
+                    <li class="center__homepage">
+                        <a href="#">Trang Chủ</a>
+                    </li>
+                    <li class="center__ticket">
+                        <a href="#">Vé Máy Bay</a>
+                    </li>
+                    <li class="center__tour">
+                        <a href="#">Tour Du Lịch</a>
+                    </li>
+                </ul>
+                <ul class="nav-bar__login">
+                    <div class="login__icon-avatar">
+                        <img src="./src/users.png" alt="icon">
+                    </div>
+                    <li class="login">
+                        <a href="./login.html">Đăng Nhập</a>
+                    </li>
+                    <li class="sign-in">
+                        <a href="#">Đăng Ký</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h1>Thông tin liên hệ</h1>
+        <div class="customer_contact">
+            <form action="">
+                <div class="infomation">
+                    <div class="info1">
+                        <div class="name">
+                            <h2>Họ và Tên</h2>
+                            <input type="text">
+                        </div>
+                        <div class="address">
+                            <h2>Địa chỉ</h2>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="info2">
+                        <div class="phone_number">
+                            <h2>Số điện thoại</h2>
+                            <input type="text">
+                        </div>
+                        <div class="email">
+                            <h2>Email</h2>
+                            <input type="text">
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div class="text_flights">
+                <a>Chiều đi:</a> <img src="#" alt=""><a>VJ-131</a>
+                <h3>Lộ trình chuyến bay:</h3>
+                <p>Điểm đi: Hà Nội (HAN)</p>
+                <a>07:45 -</a> <a>1/12/2021</a>
+
+                <p>Điểm đến: Hồ Chí Minh (SGN)</p>
+                <a>09:55 - </a>
+                <a>1/12/2021</a>
+            </div>
+        </div>
+        <h1>Thông tin hành khách</h1>
+        <div class="customer_info">
+            <form action="">
+                <div class="cus_info">
+                    <div class="contact1">
+                        <div class="name">
+                            <h2>Họ và tên</h2>
+                            <input type="text">
+                        </div>
+                        <div class="weight">
+                            <h2>Khối lượng hành lý</h2>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="contact2">
+                        <h2>Giới tính</h2>
+                        <select name="gender">
+                            <option value="none" selected></option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">other</option>
+                        </select>
+                    </div>
+                </div>
+            </form>
+            <div class="btn">
+                <button class="form_btn" type="submit">Tiếp tục</button>
+            </div>
+        </div>
+
+    </main>
+    <footer class="footer-bg">
+        <div class="footerabout-us">
+            <h2>about us</h2>
+            <a>Lorem ipsum dolor sit amet, consectetur
+                        <br>adipiscing elit, sed do eiusmod
+                        <br>tempor incididunt ut labore et
+                        <br>dolore magna aliqua.
+                    </a>
+            <hr>
+            <div class="about-uscontact">
+                <i class="fas fa-phone-alt"></i>
+                <a>:0123000</a>
+            </div>
+            <div class="about-ustime">
+                <i class="far fa-clock"></i>
+                <a>:Mon - Sat 8.00 - 17.00</a>
+            </div>
+            <hr>
+            <div class="about-ussuggestions">
+                <p>
+                    <a href="">chi nhánh</a>
+                </p>
+                <p>
+                    <a href="">góp ý</a>
+                </p>
+                <p>
+                    <a href="">FAQ</a>
+                </p>
+            </div>
+        </div>
+        <div class="footerjuridical">
+            <h2>pháp lý</h2>
+            <p><a href="">các điều khoản & pháp lý</a></p>
+            <p><a href="">điều lệ vận chuyển</a></p>
+            <p><a href="">bảo mật thông tin</a></p>
+        </div>
+        <div class="footersupport">
+            <h2>hỗ trợ</h2>
+            <p><a href="">chăm sóc khách hàng</a></p>
+            <p><a href="">chính sách bảo vệ khách hàng</a></p>
+        </div>
+    </footer>
+</body>
+
+</html>

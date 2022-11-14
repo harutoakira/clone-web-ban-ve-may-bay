@@ -1,0 +1,211 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    --color-primary: #009579;
+    --color-primary-dark: #007f67;
+    --color-secondary: #252c6a;
+    --color-error: #cc3333;
+    --color-success: #4bb544;
+    --border-radius: 4px;
+    font-family: 'roboto', sans-serif
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.container .form__contain {
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.container .form__contain .form__login {
+    background: -webkit-gradient(linear, left top, left bottom, from(#45BBFB), to(#fff));
+    background: linear-gradient(#45BBFB, #fff);
+    margin-left: 15.5rem;
+    border-radius: 20px;
+    height: 450px;
+    width: 450px;
+}
+
+.form {
+    margin-top: 5rem;
+}
+
+.bg__logo {
+    background: -webkit-gradient(linear, left top, left bottom, from(#45BBFB), to(#fff));
+    border-radius: 6rem;
+    width: fit-content;
+    height: 200px;
+    /* -webkit-border-top-left-radius: inherit;
+        -webkit-border-top-right-radius: -2rem;
+        -webkit-border-bottom-right-radius: 80rem;
+        -webkit-border-bottom-left-radius: 1rem; */
+    /* -moz-border-radius-topleft: 1px;
+        -moz-border-radius-topright: 2px;
+        -moz-border-radius-bottomright: 3px;
+        -moz-border-radius-bottomleft: 4px; */
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    border-bottom-right-radius: 100rem;
+    border-bottom-left-radius: inherit;
+}
+
+.bg__logo img {
+    width: 230px;
+    margin-top: -79px;
+    margin-left: 1rem;
+    height: 247px;
+}
+
+.container .form__contain .bg__image img {
+    height: 700px;
+    width: 1000px;
+}
+
+.container,
+.form__input,
+.form__button {
+    font: 500 1rem 'Roboto', sans-serif;
+}
+
+.form--hidden {
+    display: none;
+}
+
+.form>*:first-child {
+    margin-top: 0;
+}
+
+.form>*:last-child {
+    margin-bottom: 0;
+}
+
+.form h1 {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.form__message {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.form__message--success {
+    color: var(--color-success);
+}
+
+.form__message--error {
+    color: var(--color-error);
+}
+
+.form__input-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.form__input-group p {
+    margin-top: 13px;
+    margin-left: 15px;
+}
+
+.form__input {
+    margin-left: 15px;
+    display: block;
+    width: 250px;
+    padding: 0.75rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 15px;
+    border: 1px solid #dddddd;
+    outline: none;
+    background: #eeeeee;
+    -webkit-transition: background 0.2s, border-color 0.2s;
+    transition: background 0.2s, border-color 0.2s;
+}
+
+.form__input:focus {
+    border-color: var(--color-primary);
+    background: #ffffff;
+}
+
+.form_input--error {
+    color: var(--color-error);
+    border-color: var(--color-error);
+}
+
+.form__input-error-message {
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    color: var(--color-error);
+}
+
+.form__button {
+    margin-left: 135px;
+    margin-top: 20px;
+    width: 200px;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    cursor: pointer;
+    background: var(--color-primary);
+}
+
+.login__form--text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin-left: 38px;
+    /* text-align: center; */
+}
+
+.form__button:hover {
+    background: var(--color-primary-dark);
+}
+
+.form__button:active {
+    transform: scale(0.98);
+}
+
+.form__text .form__link {
+    margin-left: 55px;
+}
+
+.form__link {
+    color: var(--color-secondary);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.form__text:hover {
+    text-decoration: underline;
+}
